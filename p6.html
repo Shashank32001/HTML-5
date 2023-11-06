@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML 5</title>
+    <style>
+        dialog{
+            background-color:grey;
+            color:lightgray;
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h3>DETAILS TAG</h3>
+        <p>This tag is uesd to specify the additional details on the web page that the user can view or hide on demand</p>
+    </center>
+    <hr>
+    <center>
+        <h3>This is Summary Tag</h3>
+        <p>The<b>HTML SUMMARY</b>tag is uesd with<b>DETAILS</b>Tag.it is used as asummary,caption or legend for the contenet of a details element.</p>
+    </center>
+    <hr>
+    <details>
+        <summary>HTML</summary>
+        <h1>HTML</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam reiciendis quos atque exercitationem consequuntur. Excepturi provident voluptate, praesentium architecto nisi facilis blanditiis distinctio aliquam fugit doloremque, dolores maiores quisquam? Odio.</p>
+    </details>
+    <details>
+        <summary>CSS</summary>
+        <h1>CSS</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam reiciendis quos atque exercitationem consequuntur. Excepturi provident voluptate, praesentium architecto nisi facilis blanditiis distinctio aliquam fugit doloremque, dolores maiores quisquam? Odio.</p>
+    </details>
+    <details>
+        <summary>JS</summary>
+        <h1>JS</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam reiciendis quos atque exercitationem consequuntur. Excepturi provident voluptate, praesentium architecto nisi facilis blanditiis distinctio aliquam fugit doloremque, dolores maiores quisquam? Odio.</p>
+    </details>
+    <hr>
+    <center>
+        <h3>TIME TAG..!</h3>
+        <p><b>HTML TIME</b>tag is used to define date and time.it displays time value in a 24 hour clock or a precise date ina a gregorian calendar in HTML</p>
+    </center>
+    <hr>
+    <p>Lorem ipsum dolor sit amet consectetur,2:30 pm adipisicing elit. A ab rerum alias expedita temporibus quis aut quam deserunt laborum accusamus? Beatae nam totam provident voluptatum ut libero natus voluptates officia.</p>
+    <p>Lorem ipsum dolor sit amet consectetur <time>2:30</time>pm adipisicing elit. Quibusdam ullam amet non laborum nihil illum autem aspernatur iste quia quaerat? Deleniti deserunt minus itaque, corrupti qui hic aut laboriosam modi.</p>
+    <hr>
+    <center>
+        <h3>This is DIALOG TAG</h3>
+        <p><b>(This tag to create a new popup dialog on a web page) </b></p>
+        
+    </center>
+    <button type="button" id="btn1">open Dialog</button>
+    <dialog id="dialogTag">
+        <button type="button" id="btn2">&times;</button>
+        <h1>MEARN STACK COURSE</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam beatae maiores suscipit perferendis ut nulla, rem dolorem saepe vel, quia porro facilis incidunt impedit odio laudantium iste totam dolore voluptatibus.</p>
+    </dialog>
+    <script>
+        document.getElementById("btn1").onclick=function(){
+            document.getElementById("dialogTag").show();
+        };
+        document.getElementById("btn2").onclick=function(){
+            document.getElementById("dialogTag").close();
+        };
+    </script>
+    
+
+</body>
+</html>
